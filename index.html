@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Longman Construction | Custom homes in Newport Beach</title>
+<meta name="description" content="Longman Construction has built 65 custom homes across Newport Beach, Corona del Mar and Shady Canyon, with owner Neil Longman and Orange County's finest architects. Established 1980. License 393881.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#101C2B">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Longman Construction | Custom homes in Newport Beach">
+<meta property="og:description" content="65 custom homes on the Newport islands, in Corona del Mar and Shady Canyon. Established 1980. A homepage concept prepared by OakSpin AI.">
+<meta property="og:url" content="https://oakspin-ai.github.io/longman-construction-homepage/">
+<meta property="og:image" content="https://oakspin-ai.github.io/longman-construction-homepage/assets/img/hero-cherry-hills-dusk.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --fog:#E7E9E7;
+  --chalk:#F5F6F3;
+  --ink:#101C2B;
+  --ink-2:#1B2A3D;
+  --steel:#44617F;
+  --mist:#9FB5CC;
+  --text:#1B2736;
+  --muted:#5A6676;
+  --rule:rgba(16,28,43,.16);
+  --rule-dark:rgba(231,233,231,.18);
+  --header-h:84px;
+  --wrap:1240px;
+  --gutter:clamp(20px,5vw,64px);
+  --display:"Libre Caslon Display","Libre Caslon Text",Georgia,serif;
+  --serif:"Libre Caslon Text",Georgia,serif;
+  --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 8px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fog);color:var(--text);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+[hidden]{display:none!important}
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;background:var(--ink);color:#fff;padding:10px 14px}
+.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--steel);outline-offset:3px}
+.on-dark :focus-visible,.site-footer :focus-visible{outline-color:var(--mist)}
+
+.wrap{width:min(var(--wrap),100% - 2*var(--gutter));margin-inline:auto}
+
+/* type */
+.display{font-family:var(--display);font-weight:400;letter-spacing:-.012em;margin:0;line-height:1.02}
+h2.display{font-size:clamp(2.1rem,4vw,3.5rem);line-height:1.06}
+.italic{font-family:var(--serif);font-style:italic}
+.lede{font-size:clamp(1.05rem,1.35vw,1.2rem);line-height:1.62;color:var(--text);max-width:34em}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 28px;border:1px solid var(--ink);border-radius:999px;font:500 15px/1 var(--sans);letter-spacing:.02em;text-decoration:none;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:var(--steel);border-color:var(--steel)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.on-dark .btn-line{color:#fff;border-color:rgba(255,255,255,.5)}
+.on-dark .btn-line:hover{background:#fff;color:var(--ink)}
+.textlink{font-weight:500;color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px;text-decoration-color:var(--steel);transition:text-decoration-color .2s}
+.textlink:hover{text-decoration-color:var(--ink)}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;height:var(--header-h);background:var(--fog);transition:box-shadow .3s,background .3s}
+.site-header.scrolled{box-shadow:0 1px 0 var(--rule);background:rgba(231,233,231,.94);backdrop-filter:blur(10px)}
+.site-header .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:block;flex-shrink:0}
+.brand img{width:158px;height:auto}
+.nav{display:flex;align-items:center;gap:clamp(18px,2.6vw,38px)}
+.nav a{font-size:15px;font-weight:500;letter-spacing:.015em;text-decoration:none;color:var(--ink);padding:6px 0;background:linear-gradient(var(--steel),var(--steel)) left bottom/0 1px no-repeat;transition:background-size .3s}
+.nav a:hover{background-size:100% 1px}
+.nav .nav-phone{font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav .btn{padding:0 22px;min-height:44px;background-image:none}
+.nav .btn-line:hover{color:#fff}
+.menu-toggle{display:none;flex-shrink:0;width:46px;height:46px;border:0;background:transparent;cursor:pointer;align-items:center;justify-content:center}
+.menu-toggle span,.menu-toggle span::before,.menu-toggle span::after{display:block;width:24px;height:1.5px;background:var(--ink);content:"";position:relative;transition:transform .25s,background .25s}
+.menu-toggle span::before{position:absolute;top:-7px}
+.menu-toggle span::after{position:absolute;top:7px}
+.menu-toggle[aria-expanded="true"] span{background:transparent}
+.menu-toggle[aria-expanded="true"] span::before{transform:translateY(7px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span::after{transform:translateY(-7px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;padding:clamp(24px,4vh,56px) 0 clamp(48px,8vh,88px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,53%);align-items:center;min-height:calc(100svh - var(--header-h) - 80px);max-height:820px}
+.hero-copy{padding-left:max(var(--gutter),calc((100vw - var(--wrap))/2));padding-right:clamp(24px,4vw,64px)}
+.hero h1{font-size:clamp(2.8rem,5.3vw,5.1rem);max-width:9.2em}
+.hero .lede{margin:clamp(22px,3vh,34px) 0 clamp(26px,4vh,40px)}
+.hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px 30px}
+.hero-photo{margin:0}
+.hero-photo .frame{position:relative;overflow:hidden;aspect-ratio:4/3.1;background:var(--ink-2)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 58%;transform-origin:70% 60%;animation:wipe 1.9s cubic-bezier(.22,.7,.12,1) .1s both}
+.hero-photo .frame{animation:reveal 1.7s cubic-bezier(.22,.7,.12,1) .1s both}
+@keyframes reveal{from{clip-path:inset(0 0 0 100%)}to{clip-path:inset(0 0 0 0)}}
+@keyframes wipe{from{transform:scale(1.08)}to{transform:scale(1)}}
+.hero-photo figcaption{padding:14px 0 0 2px;font:italic 400 15px/1.4 var(--serif);color:var(--muted)}
+
+/* figures */
+.figures{background:var(--chalk);padding:clamp(56px,9vw,112px) 0}
+.figures-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(24px,3vw,48px)}
+.fig{border-top:1px solid var(--rule);padding-top:22px}
+.fig-num{font-family:var(--display);font-size:clamp(2.7rem,5vw,4.9rem);line-height:1;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:lining-nums}
+.fig-label{margin:12px 0 8px;font:italic 400 clamp(1.05rem,1.35vw,1.25rem)/1.3 var(--serif);color:var(--steel)}
+.fig p{margin:0;font-size:15px;line-height:1.55;color:var(--muted);max-width:21em}
+
+/* owner */
+.owner{padding:clamp(64px,10vw,136px) 0}
+.owner-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(36px,7vw,112px);align-items:start}
+.owner h2{max-width:11em}
+.owner-body p{margin:0 0 1.15em;max-width:33em}
+.owner-body p:first-child{font-size:clamp(1.15rem,1.6vw,1.4rem);line-height:1.5;font-family:var(--serif);color:var(--ink)}
+.signoff{margin-top:2em;display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px}
+.signoff strong{font:400 1.45rem/1.2 var(--display)}
+.signoff span{display:block;font:italic 400 15px/1.4 var(--serif);color:var(--muted)}
+
+/* portfolio */
+.work{background:var(--chalk);padding:clamp(64px,9vw,128px) 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px 48px;flex-wrap:wrap;margin-bottom:clamp(32px,5vw,64px)}
+.sec-head p{margin:0;max-width:28em;color:var(--muted)}
+.work-row{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(20px,2.4vw,32px);margin-bottom:clamp(32px,4.5vw,64px)}
+.work-row.a figure:nth-child(1){grid-column:span 7}.work-row.a figure:nth-child(2){grid-column:span 5}
+.work-row.b figure:nth-child(1){grid-column:span 5}.work-row.b figure:nth-child(2){grid-column:span 7}
+.work figure{margin:0}
+.work .ph{overflow:hidden;background:var(--fog);aspect-ratio:5/3}
+.work .ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.work figure:hover .ph img{transform:scale(1.03)}
+.work-row figure:nth-child(odd) .ph{aspect-ratio:5/3.15}
+figcaption.cap{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-top:14px}
+.cap b{font:400 clamp(1.3rem,1.9vw,1.7rem)/1.15 var(--display)}
+.cap i{font:italic 400 15px/1.3 var(--serif);color:var(--muted);white-space:nowrap}
+.also{margin:clamp(8px,2vw,24px) 0 0;padding-top:28px;border-top:1px solid var(--rule);display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:12px 40px}
+.also h3{margin:0;font:italic 400 1.1rem/1.4 var(--serif);color:var(--steel)}
+.also p{margin:0;font:400 clamp(1.4rem,2.4vw,2.1rem)/1.38 var(--display);color:var(--ink)}
+
+/* the one bold element: the logotype filled with their work */
+.wordmark{padding:clamp(56px,9vw,120px) 0 clamp(40px,6vw,80px)}
+.wm-letters{width:min(var(--wrap),100% - 2*var(--gutter));margin-inline:auto;aspect-ratio:1062/270;
+  background:var(--ink-2) url("assets/img/wordmark-fill.jpg") 50% 20%/cover no-repeat;
+  -webkit-mask:url("assets/img/logo-white.png") center/100% 100% no-repeat;mask:url("assets/img/logo-white.png") center/100% 100% no-repeat}
+.wm-line{width:min(var(--wrap),100% - 2*var(--gutter));margin:clamp(20px,3vw,36px) auto 0;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 32px;font:italic 400 clamp(1rem,1.3vw,1.2rem)/1.4 var(--serif);color:var(--muted)}
+
+/* interiors */
+.inside{padding:clamp(24px,4vw,56px) 0 clamp(64px,9vw,128px)}
+.inside-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2vw,28px)}
+.inside figure{margin:0}
+.inside .ph{aspect-ratio:4/5;overflow:hidden;background:var(--chalk)}
+.inside .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.inside figure:nth-child(2) .ph{aspect-ratio:4/4.6}
+.inside figure:nth-child(3) .ph{aspect-ratio:4/5.4}
+.inside figure:nth-child(4) .ph{aspect-ratio:4/4.8}
+.inside-grid{align-items:start}
+.inside figcaption{padding-top:12px;font:italic 400 15px/1.4 var(--serif);color:var(--muted)}
+
+/* services */
+.services{background:var(--ink);color:#E6EAEE;padding:clamp(64px,10vw,136px) 0}
+.services .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(36px,7vw,112px)}
+.services h2{color:#fff;max-width:9em}
+.services .lede{color:#C5CFDA;margin-top:24px}
+.svc{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule-dark)}
+.svc li{font:400 clamp(1.4rem,2.3vw,2rem)/1.25 var(--display);color:#fff;padding:18px 0;border-bottom:1px solid var(--rule-dark)}
+
+/* press */
+.press{padding:clamp(64px,9vw,128px) 0}
+.press-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.press-list li{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,5fr) 80px;gap:8px 28px;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--rule)}
+.press-list b{font:400 clamp(1.3rem,2vw,1.75rem)/1.2 var(--display)}
+.press-list span{color:var(--text)}
+.press-list time{font:italic 400 15px/1 var(--serif);color:var(--muted);text-align:right}
+.press-list a{text-decoration:none}
+.press-list a:hover span{text-decoration:underline;text-decoration-color:var(--steel);text-underline-offset:5px}
+.press-note{margin:20px 0 0;color:var(--muted);font-size:15px}
+
+/* inquiry */
+.start{background:var(--chalk);padding:clamp(64px,10vw,136px) 0}
+.start-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(36px,7vw,112px);align-items:start}
+.start h2{max-width:8em}
+.start .lede{margin:22px 0 32px}
+.callout{display:block;font:400 clamp(2rem,3.6vw,3.2rem)/1.05 var(--display);text-decoration:none;color:var(--ink);letter-spacing:-.01em;font-variant-numeric:lining-nums}
+.callout:hover{color:var(--steel)}
+.callout-sub{margin:8px 0 0;font:italic 400 15px/1.4 var(--serif);color:var(--muted)}
+form{display:block}
+fieldset{border:0;margin:0 0 28px;padding:0}
+legend{font:italic 400 1.1rem/1.4 var(--serif);color:var(--steel);padding:0;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip span{display:inline-flex;align-items:center;min-height:46px;padding:0 20px;border:1px solid rgba(16,28,43,.3);border-radius:999px;font-size:15px;font-weight:500;cursor:pointer;transition:background .2s,color .2s,border-color .2s;background:var(--fog)}
+.chip:hover span{border-color:var(--ink)}
+.chip input:checked + span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip input:focus-visible + span{outline:2px solid var(--steel);outline-offset:3px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+label.l{font:500 14px/1.3 var(--sans);color:var(--muted)}
+input[type=text],input[type=tel],input[type=email],textarea{width:100%;font:400 17px/1.4 var(--sans);color:var(--ink);background:var(--fog);border:1px solid rgba(16,28,43,.22);border-radius:4px;padding:13px 14px;min-height:50px}
+textarea{min-height:120px;resize:vertical}
+input::placeholder,textarea::placeholder{color:#8B95A2}
+input:focus,textarea:focus{outline:2px solid var(--steel);outline-offset:1px;border-color:var(--steel)}
+.form-foot{display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px;margin-top:26px}
+.form-status{margin:0;font-size:15px;color:var(--muted);flex:1 1 240px}
+.form-status.error{color:#9A2B1F}
+
+/* footer */
+.site-footer{background:var(--ink);color:#C5CFDA;padding:clamp(48px,7vw,88px) 0 32px}
+.foot-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,3fr) minmax(0,3fr);gap:36px 56px}
+.foot-grid img{width:190px;height:auto;margin-bottom:18px}
+.foot-grid p{margin:0 0 6px}
+.foot-grid h3{margin:0 0 12px;font:italic 400 1.05rem/1.3 var(--serif);color:var(--mist)}
+.foot-grid a{text-decoration:none;color:#fff}
+.foot-grid a:hover{text-decoration:underline;text-underline-offset:4px}
+.foot-grid ul{list-style:none;margin:0;padding:0}
+.foot-grid li{margin:0 0 6px}
+.legal{margin-top:clamp(36px,5vw,64px);padding-top:22px;border-top:1px solid var(--rule-dark);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 24px;font-size:14px;color:#93A1B2}
+.legal a{color:#C5CFDA}
+
+.callbar{display:none}
+
+/* ≤ 1000px */
+@media (max-width:1000px){
+  .hero-grid{grid-template-columns:1fr;min-height:0;max-height:none;gap:40px}
+  .hero-copy{padding:0 var(--gutter)}
+  .hero h1{max-width:10em}
+  .hero-photo{padding-left:var(--gutter)}
+  .hero-photo .frame{aspect-ratio:16/10}
+  .figures-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:36px}
+  .owner-grid,.services .wrap,.start-grid{grid-template-columns:1fr}
+  .inside-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .inside .ph,.inside figure:nth-child(n) .ph{aspect-ratio:4/3.4}
+  .also{grid-template-columns:1fr}
+  .press-list li{grid-template-columns:1fr auto}
+  .press-list span{grid-column:1/2;grid-row:2}
+  .press-list time{grid-column:2;grid-row:1}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-grid > div:first-child{grid-column:1/-1}
+}
+@media (max-width:900px){
+  :root{--header-h:68px}
+  .brand img{width:132px}
+  .menu-toggle{display:inline-flex}
+  .nav{position:fixed;inset:var(--header-h) 0 auto 0;flex-direction:column;align-items:flex-start;gap:0;padding:12px var(--gutter) 28px;background:var(--fog);border-bottom:1px solid var(--rule);opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .2s,transform .2s,visibility 0s .2s}
+  .nav.open{opacity:1;visibility:visible;transform:none;transition:opacity .2s,transform .2s}
+  .nav a{width:100%;padding:16px 0;font-size:19px;border-bottom:1px solid var(--rule);background-image:none}
+  .nav .btn{width:100%;margin-top:18px;border-bottom:1px solid var(--ink);font-size:16px;padding:0 22px}
+  .nav .nav-phone{color:var(--ink)}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(231,233,231,.94);backdrop-filter:blur(8px);border-top:1px solid var(--rule)}
+  .callbar .btn{min-height:48px;padding:0 12px}
+  body{padding-bottom:74px}
+}
+@media (max-width:680px){
+  body{font-size:16.5px}
+  .figures-grid{grid-template-columns:1fr}
+  .work-row{display:block;margin-bottom:0}
+  .work-row figure{margin-bottom:32px}
+  .work .ph,.work-row figure:nth-child(odd) .ph{aspect-ratio:4/3}
+  .fields{grid-template-columns:1fr}
+  .cap i{white-space:normal;text-align:right}
+  .foot-grid{grid-template-columns:1fr}
+  .hero-photo{padding-left:0}
+  .hero-photo figcaption{padding-left:var(--gutter)}
+  .hero-photo .frame{aspect-ratio:4/3.2}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Longman Construction, home"><img src="assets/img/logo-dark.png" width="1062" height="270" alt="Longman Construction"></a>
+    <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#press">Press</a>
+      <a class="nav-phone" href="tel:+19497227711">949.722.7711</a>
+      <a class="btn btn-line" href="#start">Start a conversation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <h1 class="display">Custom homes on every island in Newport.</h1>
+      <p class="lede">Longman Construction has built 65 custom homes across Newport Beach, Corona del Mar and Shady Canyon. Owner Neil Longman leads the company with a hands-on approach to general contracting, working alongside Orange County’s finest architects.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#start">Start a conversation</a>
+        <a class="textlink" href="#portfolio">See the portfolio</a>
+      </div>
+    </div>
+    <figure class="hero-photo">
+      <div class="frame">
+        <picture>
+          <source srcset="assets/img/hero-cherry-hills-dusk.webp" type="image/webp">
+          <img src="assets/img/hero-cherry-hills-dusk.jpg" width="942" height="536" alt="A shingle-style Longman home glowing at dusk behind a stone retaining wall" fetchpriority="high">
+        </picture>
+      </div>
+      <figcaption>Cherry Hills, Newport Beach</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="figures" aria-label="Longman Construction at a glance">
+  <div class="wrap figures-grid">
+    <div class="fig">
+      <div class="fig-num">1980</div>
+      <p class="fig-label">Established</p>
+      <p>Over three decades of custom home building in Southern California, and still owner-led.</p>
+    </div>
+    <div class="fig">
+      <div class="fig-num">65</div>
+      <p class="fig-label">Custom homes built</p>
+      <p>Across Newport Beach, Newport Coast, Laguna Beach, Corona del Mar and Irvine’s Shady Canyon.</p>
+    </div>
+    <div class="fig">
+      <div class="fig-num">393881</div>
+      <p class="fig-label">California license</p>
+      <p>Originally issued in 1980 and still active. The company’s longevity, in its own paperwork.</p>
+    </div>
+    <div class="fig">
+      <div class="fig-num">5</div>
+      <p class="fig-label">Newport islands</p>
+      <p>Lido, Balboa, Harbor, Linda and Bay Island, plus nearly every neighborhood in Newport Beach.</p>
+    </div>
+  </div>
+</section>
+
+<section class="owner" id="about">
+  <div class="wrap owner-grid">
+    <h2 class="display">The owner’s vision and the architect’s, built as one.</h2>
+    <div class="owner-body">
+      <p>Neil Longman has built the company’s reputation on quality and service, with close attention to detail and a hands-on approach to general contracting.</p>
+      <p>Longman works with the finest architects in Orange County, building to exacting standards and bringing the visions of the owner, architect and designers together without seams. He is committed to delivering on time and, more often, ahead of schedule and under budget.</p>
+      <p>He stands behind each home with a “within reason” warranty that lasts through the original ownership’s tenure. Referrals and repeat business have followed.</p>
+      <div class="signoff">
+        <div><strong>Neil Longman</strong><span>Owner, Longman Construction</span></div>
+        <a class="textlink" href="tel:+19497227711">Call 949.722.7711</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="work" id="portfolio">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="display">Homes, by neighborhood.</h2>
+      <p>A selection from the Longman portfolio, shown by place and architectural style as the company presents it.</p>
+    </div>
+
+    <div class="work-row a">
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/bay-island.webp" type="image/webp"><img src="assets/img/bay-island.jpg" width="1200" height="800" loading="lazy" alt="A Cape Cod style home on Bay Island at dusk, with a brick path leading across the lawn"></picture></div>
+        <figcaption class="cap"><b>Bay Island</b><i>Cape Cod</i></figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/st-james-place.webp" type="image/webp"><img src="assets/img/st-james-place.jpg" width="700" height="400" loading="lazy" alt="A Spanish Colonial home with a red tile roof behind a flowering garden"></picture></div>
+        <figcaption class="cap"><b>St. James Place</b><i>Spanish Colonial</i></figcaption>
+      </figure>
+    </div>
+
+    <div class="work-row b">
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/harbor-island.webp" type="image/webp"><img src="assets/img/harbor-island.jpg" width="942" height="536" loading="lazy" alt="A stone cottage-style home on Harbor Island with a white picket fence and fountain"></picture></div>
+        <figcaption class="cap"><b>Harbor Island</b><i>Story Book</i></figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/shorecliff.webp" type="image/webp"><img src="assets/img/shorecliff.jpg" width="942" height="536" loading="lazy" alt="A stone and slate home with a turret, seen from above its terraced garden"></picture></div>
+        <figcaption class="cap"><b>Shorecliff</b><i>Story Book</i></figcaption>
+      </figure>
+    </div>
+
+    <div class="work-row a">
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/shady-canyon.webp" type="image/webp"><img src="assets/img/shady-canyon.jpg" width="942" height="536" loading="lazy" alt="A Mediterranean home in Shady Canyon with a tiled walkway through a drought-tolerant garden"></picture></div>
+        <figcaption class="cap"><b>Shady Canyon</b><i>Irvine</i></figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/cherry-hills-european.webp" type="image/webp"><img src="assets/img/cherry-hills-european.jpg" width="700" height="400" loading="lazy" alt="A European-style stucco and stone home framed by olive trees and clipped hedges"></picture></div>
+        <figcaption class="cap"><b>Cherry Hills</b><i>European</i></figcaption>
+      </figure>
+    </div>
+
+    <div class="also">
+      <h3>Also in the portfolio</h3>
+      <p>Newport Heights, Balboa Island, Lido Island, Cliff Haven, Bayshores, Beacon Bay, Port Streets, Big Canyon and Corona del Mar.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wordmark" aria-label="Longman Construction, established 1980">
+  <div class="wm-letters" id="wm" role="img" aria-label="Longman Construction"></div>
+  <p class="wm-line"><span>Established in 1980, building in Newport Beach.</span><span>California license 393881</span></p>
+</section>
+
+<section class="inside" aria-label="Interiors">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="display">Inside the homes.</h2>
+    </div>
+    <div class="inside-grid">
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/via-lido-sound-interior.webp" type="image/webp"><img src="assets/img/via-lido-sound-interior.jpg" width="700" height="400" loading="lazy" alt="A living room with coffered beams and a stone fireplace overlooking the water"></picture></div>
+        <figcaption>Via Lido Sound</figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/n-bayfront-interior.webp" type="image/webp"><img src="assets/img/n-bayfront-interior.jpg" width="700" height="400" loading="lazy" alt="A bright sitting room with white built-ins and a grand piano facing the harbor"></picture></div>
+        <figcaption>North Bayfront</figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/zurich-interior.webp" type="image/webp"><img src="assets/img/zurich-interior.jpg" width="700" height="400" loading="lazy" alt="A vaulted living room with exposed beams, a chandelier and a plaster fireplace"></picture></div>
+        <figcaption>Zurich</figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><picture><source srcset="assets/img/via-lido-nord-patio.webp" type="image/webp"><img src="assets/img/via-lido-nord-patio.jpg" width="864" height="530" loading="lazy" alt="A covered outdoor kitchen and patio with a spa and stone-clad fireplace"></picture></div>
+        <figcaption>Via Lido Nord, patio</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="services on-dark" id="services">
+  <div class="wrap">
+    <div>
+      <h2 class="display">For owners and architects.</h2>
+      <p class="lede">Longman offers cost estimating, permit processing, design consulting and project management alongside general contracting.</p>
+    </div>
+    <ul class="svc">
+      <li>General contractor</li>
+      <li>Custom home building</li>
+      <li>Room additions</li>
+      <li>Design consulting</li>
+      <li>Cost estimating</li>
+      <li>Permit processing</li>
+      <li>Project management</li>
+    </ul>
+  </div>
+</section>
+
+<section class="press" id="press">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="display">In print.</h2>
+      <p>Coverage of Longman homes, as listed on the company’s press page.</p>
+    </div>
+    <ul class="press-list">
+      <li><a href="https://www.ocregister.com/2017/11/01/a-terrible-fire-meant-a-new-beginning-in-newport-beach/" style="display:contents" target="_blank" rel="noopener"><b>Orange County Register</b><span>A terrible fire meant a new beginning in Newport Beach</span><time>2018</time></a></li>
+      <li><b>Shingle Style Architecture Book</b><span>Stunning Decor</span><time>2010</time></li>
+      <li><b>Better Homes and Gardens</b><span>Room for Everything</span><time>2009</time></li>
+      <li><b>Traditional Home</b><span>Stunning Decor</span><time>2008</time></li>
+      <li><b>Orange County Home</b><span>Stunning Decor</span><time>2003</time></li>
+    </ul>
+  </div>
+</section>
+
+<section class="start" id="start">
+  <div class="wrap start-grid">
+    <div>
+      <h2 class="display">Start a conversation.</h2>
+      <p class="lede">Tell Neil about the lot, the architect and your timing. Your message goes straight to him.</p>
+      <a class="callout" href="tel:+19497227711">949.722.7711</a>
+      <p class="callout-sub">Office, Newport Beach</p>
+    </div>
+    <form id="inquiry-form" novalidate>
+      <fieldset>
+        <legend>What are you planning?</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="type" value="New custom home"><span>New custom home</span></label>
+          <label class="chip"><input type="radio" name="type" value="Room addition"><span>Room addition</span></label>
+          <label class="chip"><input type="radio" name="type" value="Working with my architect"><span>Working with my architect</span></label>
+          <label class="chip"><input type="radio" name="type" value="Cost estimate"><span>Cost estimate</span></label>
+        </div>
+      </fieldset>
+      <div class="fields">
+        <div class="field"><label class="l" for="f-name">Your name</label><input type="text" id="f-name" name="name" autocomplete="name"></div>
+        <div class="field"><label class="l" for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel"></div>
+        <div class="field"><label class="l" for="f-email">Email</label><input type="email" id="f-email" name="email" autocomplete="email"></div>
+        <div class="field"><label class="l" for="f-city">Property location</label><input type="text" id="f-city" name="city" placeholder="Neighborhood or street"></div>
+        <div class="field full"><label class="l" for="f-when">Timing</label><input type="text" id="f-when" name="when" placeholder="For example, plans complete this spring"></div>
+        <div class="field full"><label class="l" for="f-notes">About the project</label><textarea id="f-notes" name="notes"></textarea></div>
+      </div>
+      <div class="form-foot">
+        <button class="btn btn-solid" type="submit">Send to Neil</button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="assets/img/logo-white.png" width="1062" height="270" alt="Longman Construction" loading="lazy">
+        <p>Custom homes in Newport Beach, California.</p>
+        <p>Established 1980. California license 393881.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="tel:+19497227711">949.722.7711</a></p>
+        <p><a href="mailto:neil@longmanconstruction.com">neil@longmanconstruction.com</a></p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#press">Press</a></li>
+          <li><a href="#start">Start a conversation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© <span id="year">2026</span> Longman Construction Company Inc. All rights reserved.</span>
+      <span>Homepage concept prepared by OakSpin AI.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar" aria-label="Quick contact">
+  <a class="btn btn-line" href="tel:+19497227711">Call Neil</a>
+  <a class="btn btn-solid" href="#start">Start a conversation</a>
+</div>
+
+<script>
+(function(){
+  var header=document.querySelector('.site-header');
+  var onScroll=function(){header.classList.toggle('scrolled',window.scrollY>8)};
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+  var toggle=document.querySelector('.menu-toggle'),nav=document.getElementById('site-nav');
+  var setMenu=function(open){
+    nav.classList.toggle('open',open);
+    toggle.setAttribute('aria-expanded',String(open));
+    toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+  };
+  toggle.addEventListener('click',function(){setMenu(!nav.classList.contains('open'))});
+  nav.addEventListener('click',function(e){if(e.target.closest('a'))setMenu(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('open')){setMenu(false);toggle.focus()}});
+
+  document.getElementById('year').textContent=new Date().getFullYear();
+
+  /* the logotype filled with a Longman home drifts slowly as it passes through the viewport */
+  var wm=document.getElementById('wm');
+  var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(wm&&!reduce){
+    var ticking=false;
+    var drift=function(){
+      var r=wm.getBoundingClientRect(),vh=window.innerHeight;
+      var p=1-(r.top+r.height)/(vh+r.height);
+      p=Math.max(0,Math.min(1,p));
+      wm.style.backgroundPosition='50% '+(8+p*84).toFixed(1)+'%';
+      ticking=false;
+    };
+    window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(drift)}},{passive:true});
+    window.addEventListener('resize',drift);drift();
+  }
+
+  var form=document.getElementById('inquiry-form'),status=document.getElementById('form-status');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var d=new FormData(form),get=function(k){return (d.get(k)||'').toString().trim()};
+    status.className='form-status error';
+    if(!get('type')){status.textContent='Choose the type of project you’re planning.';form.querySelector('input[name=type]').focus();return}
+    if(!get('name')){status.textContent='Add your name so Neil knows who to reply to.';document.getElementById('f-name').focus();return}
+    if(!get('phone')&&!get('email')){status.textContent='Add a phone number or an email so Neil can reply.';document.getElementById('f-phone').focus();return}
+    var lines=[
+      'Project: '+get('type'),
+      'Location: '+(get('city')||'Not given'),
+      'Timing: '+(get('when')||'Not given'),
+      '',
+      'Name: '+get('name'),
+      'Phone: '+(get('phone')||'Not given'),
+      'Email: '+(get('email')||'Not given'),
+      '',
+      get('notes')
+    ];
+    var subject='Project inquiry: '+get('type')+(get('city')?' in '+get('city'):'');
+    window.location.href='mailto:neil@longmanconstruction.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(lines.join('\n'));
+    status.className='form-status';
+    status.textContent='Your email app should open with these details filled in. If it doesn’t, call Neil at 949.722.7711.';
+  });
+})();
+</script>
+</body>
+</html>
